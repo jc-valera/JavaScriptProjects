@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/newEmployee.js" defer="defer"></script>
+    <title>Create New Employee</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Create new Employee</h1>
+
+        <form id="newEmployeeFormId"> 
+            <div class="row mt-4"> 
+                <label for="fname" class="col-sm-2 col-form-label">Name</label> 
+                <div class="col-sm"> 
+                    <input type="text" class="form-control" name="name" id="nameId" placeholder="Name"> 
+                </div> 
+            </div> 
+  
+            <div class="row mt-4"> 
+                <label for="lname" class="col-sm-2 col-form-label">First Surname</label> 
+                <div class="col-sm"> 
+                    <input type="text" class="form-control" name="firstSurname" id="firstSurnameId" placeholder="First Surname"> 
+                </div> 
+            </div> 
+  
+            <div class="row mt-4"> 
+                <label for="email" class="col-sm-2 col-form-label">Second Surname</label> 
+                <div class="col-sm"> 
+                    <input type="text" class="form-control" name="secondSurname" id="secondSurnameId" placeholder="Second Surname"> 
+                </div> 
+            </div> 
+  
+            <div class="row mt-4"> 
+                <label for="mobile" class="col-sm-2 col-form-label">Area</label> 
+                <div class="col-sm"> 
+                    <input type="text" class="form-control" name="area" id="areaId" placeholder="Area"> 
+                </div> 
+            </div>
+
+            <div class="row mt-4"> 
+                <label for="mobile" class="col-sm-2 col-form-label">Birth Date</label> 
+                <div class="col-sm"> 
+                    <input type="date" class="form-control" name="birthDate" id="birthDateId"> 
+                </div> 
+            </div>
+
+            <div class="row mt-4"> 
+                <label for="mobile" class="col-sm-2 col-form-label">Salary</label> 
+                <div class="col-sm"> 
+                    <input type="number" class="form-control" name="salary" id="salaryId"> 
+                </div> 
+            </div>
+
+
+            <br/>
+            <button id="btnSaveEmployeeId" class="btn btn-primary">Save</button> 
+        </form> 
+
+    </div>
+    
+</body>
+</html>
